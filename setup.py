@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
 name="flitton_fib_py",
-version="0.0.1",
+version="0.0.1",exit
 author="Maxwell Flitton",
 author_email="maivkin@gmail.com",
 description="Calculates a Fibonacci number",
