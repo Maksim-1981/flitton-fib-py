@@ -1,4 +1,4 @@
-from setuptools import find_packages
+from setuptools import find_packages, setup
 with open("README.md", "r") as fh:
 long_description = fh.read()
 setup(
@@ -9,7 +9,7 @@ author_email="maivkin@gmail.com",
 description="Calculates a Fibonacci number",
 long_description = long_description,
 long_description_content_type="text/markdown",
-url="https://github.com/Maksim-1981/flitton-fib-py
+url="https://github.com/Maksim-1981/flitton-fib-py",
 install_requires=[],
 packages=find_packages(exclude=("tests",)),
 classifiers=[
