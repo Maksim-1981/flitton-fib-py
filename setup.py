@@ -1,9 +1,9 @@
 from setuptools import find_packages, setup
 with open("README.md", "r") as fh:
-    long_description = fh.read()
+     long_description = fh.read()
 setup(
 name="flitton_fib_py",
-version="0.0.1",exit,
+version="0.0.1",
 author="Maxwell Flitton",
 author_email="maivkin@gmail.com",
 description="Calculates a Fibonacci number",
