@@ -8,8 +8,8 @@ with open("README.md", "r") as fh:
 setup(
     name="flitton_fib_py",
     version="0.0.1",
-    author="Maxwell Flitton",
-    author_email="maxwell@gmail.com",
+    author="MF",
+    author_email="maivkin81@gmail.com",
     description="Calculates a Fibonacci number",
     long_description=long_description,
     long_description_content_type="text/markdown",
