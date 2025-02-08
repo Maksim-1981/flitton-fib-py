@@ -1,6 +1,12 @@
 from setuptools import find_packages, setup
 with open("README.md","r") as fh:
      long_description = fh.read()
+
+entry_points={
+    'console_scripts':[
+        'fib-number = flitton_fib_py.cmd.fib_numb:fib_numb',
+    ],
+    },                       
 setup(
 name="flitton_fib_py",
 version="0.0.1",
